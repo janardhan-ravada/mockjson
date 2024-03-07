@@ -1,0 +1,94 @@
+[
+  {
+    "id": 390571,
+    "first_name": "Fake_FirstName",
+    "last_name": "Fake_LastName",
+    "email": "Fake_UserEmail@oracle.com",
+    "user_status": 1,
+    "permissions": [
+      
+    ],
+    "roles": [
+      {
+        "guid": "01676DF6E2164E68E0631A10000AA1E5",
+        "id": 158049,
+        "name": "Measures Manager",
+        "type": 0,
+        "application_key": "infylibrary",
+        "account_id": 50000,
+        "rights": [
+          {
+            "right_key": "infylibrary.default.measure.manage",
+            "name": "Manage Measures",
+            "id": 110,
+            "description": "Manage Measures",
+            "application_key": "infylibrary",
+            "feature_key": "infylibrary.default",
+            "is_dependent_right": false,
+            "dependent_rights": [
+              {
+                "right_key": "infylibrary.default.measure.view",
+                "name": "View Measures",
+                "id": 109,
+                "description": "View Measures",
+                "application_key": "infylibrary",
+                "feature_key": "infylibrary.default",
+                "is_dependent_right": true,
+                "dependent_rights": [
+                  
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "guid": "scboogz3ip",
+        "name": "Super Administrator",
+        "id": 391235,
+        "account_id": 50000,
+        "readonly": true,
+        "system": true,
+        "alias": "group.superAdmin",
+        "user_count": 96,
+        "roles": [
+          {
+            "guid": "ADF47053F717058AE0534C14000A89E5",
+            "id": 3250,
+            "name": "Administrator",
+            "type": 0,
+            "application_key": "account",
+            "group_id": 391235,
+            "rights": [
+              {
+                "right_key": "ALL_ACCESS",
+                "name": "All Access",
+                "id": 1,
+                "description": "All access to Account Settings",
+                "application_key": "account",
+                "feature_key": "account",
+                "is_dependent_right": false,
+                "dependent_rights": [
+                  {
+                    "right_key": "manage.parameters",
+                    "name": "Manage Parameters",
+                    "id": 2,
+                    "description": "Manage Parameters",
+                    "application_key": "account",
+                    "feature_key": "account",
+                    "is_dependent_right": true,
+                    "dependent_rights": [
+                      
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
